@@ -12,6 +12,6 @@ A continuous ICMP ping is executed to simulate a simple network attack.<img widt
 4.<img width="1263" height="756" alt="snort detection" src="https://github.com/user-attachments/assets/6880d85a-169b-4d0c-bce5-270e35b316c7" />
 Snort successfully detects the ICMP (ping) traffic based on its monitoring capabilities and configured rules. 
 When the attack is running, Snort analyzes incoming packets in real time and generates alerts, indicating potential suspicious activity in the network.
- 5.Stoping the attack 
- <img width="1270" height="157" alt="stoping the attack " src="https://github.com/user-attachments/assets/27a4242a-9004-464f-a66c-d2cdf8e25b29" />
+Stoping the attack 
+ 5.<img width="1270" height="157" alt="stoping the attack " src="https://github.com/user-attachments/assets/27a4242a-9004-464f-a66c-d2cdf8e25b29" />
  This shows the implementation of a firewall rule in Kali Linux using iptables to block ICMP (ping) traffic. The rule helps protect the system by preventing unwanted network probing and reducing the risk of certain network-based attacks
